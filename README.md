@@ -2,7 +2,6 @@
 
 🚀 This is my first-week project, a simple Udemy Clone, built using HTML & CSS. It includes hover effects and a fully responsive design to enhance the user experience.
 
-
 📌 Features
 
 ✔️ Clean & structured HTML5
