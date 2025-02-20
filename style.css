@@ -48,6 +48,9 @@ body{
     gap: 10px;
     align-items: center;
 }
+.navbar__s5{
+    display: none;
+}
 
 /* My learning Popup */
 .mylearning{
@@ -133,7 +136,9 @@ body{
  margin-top: 10px;
 }
 .course-card{
-    width: 300px;
+    flex-grow: 1;
+    flex-basis: 20%;
+    margin: 5px;
     transition: transform 0.2s ease-in-out;
 }
 .course-card:hover{
@@ -191,4 +196,28 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+/********************************** Media Query************************ */
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .course-card{
+        flex-basis: 40%;
+    }
+
+    .Catergories{
+        display: none;
+    }
+
+    .navbar__s2, .navbar__s3{
+        display: none;
+    }
+    .navbar__s5{
+        display: block;
+    }
 }
